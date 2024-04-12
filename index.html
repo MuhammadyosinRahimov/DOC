@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yosin rahimov</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': { 'max': '412px' },
+                    // => @media (max-width: 639px) { ... }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div
+        class="flex w-[100%] font-[500] sticky z-40 top-0 bg-white border-b-[#d6d6d6] border-b-[1px] sm:p-[10px_10px] justify-between items-center p-[10px_30px]">
+
+        <div class="flex justify-between items-center   w-[45%]">
+            <h1 class="text-[#2563EB] sm:block font-[700] text-[25px] pr-[20px]">Appy</h1>
+            <select class="sm:hidden" name="" id="">
+                <option value="">Products</option>
+            </select>
+            <select class="sm:hidden" name="" id="">
+                <option value="">Business Solutions</option>
+            </select>
+            <select class="sm:hidden" name="" id="">
+                <option value="">Help Center</option>
+            </select>
+            <h1 class="sm:hidden">Pricing</h1>
+
+
+        </div>
+
+        <div class="">
+            <button
+                class="sm:hidden rounded-[10px] hover:bg-transparent hover:border-[2px] hover:border-[#2563EB] hover:text-[#2563EB]  text-[#2563EB] p-[10px_0px]  w-[150px]">Log
+                In</button>
+            <button
+                class="bg-[#2563EB] sm:hidden rounded-[10px] hover:bg-transparent hover:border-[2px] hover:border-[#2563EB] hover:text-[#2563EB]  text-[white] p-[10px_0px]  w-[150px]">Get
+                Started</button>
+            <img class="hidden sm:block" src="/img/Buttons Group.png" alt="">
+        </div>
+    </div>
+
+    <div class="w-[100%] flex sm:block p-[20px_50px] justify-between sm:h-auto  sm:p-[20px] text-[17px]  h-[600px]">
+        <div class="w-[50%] sm:w-[100%]">
+            <h1 class="text-[40px] sm:text-center sm:pt-[0] pt-[100px] font-[900]">Building apps just <br> got easier
+            </h1>
+            <p class="pt-[20px] sm:text-center">Aliquam vel platea curabitur sit vestibulum egestas sit id lorem.
+                Aliquet neque, dui sed eget
+                scelerisque. Non at at
+                venenatis tortor amet feugiat ullamcorper in. Odio vulputate cras vel lacinia turpis volutpat
+                adipiscing. Sollicitudin
+                at velit, blandit tempus nunc in.</p>
+            <button
+                class="bg-[#2563EB] sm:ml-[40px] mt-[20px]  rounded-[10px] hover:bg-transparent hover:border-[2px] hover:border-[#2563EB] hover:text-[#2563EB]  text-[white] p-[10px_0px]  w-[150px]">Get
+                Started</button>
+            <button class="hover:border-[#2563EB]   ml-[20px] text-[#2563EB] w-[150px]"><img
+                    class="relative left-[10px] top-[20px]" src="/img/Vector.png" alt="">Watch Video</button>
+        </div>
+
+        <div class="w-[50%] sm:w-[100%]">
+            <img class="w-[100%] h-[100%] sm:w-[120%]" src="/img/Col.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="bg-[#F1F5F9] p-[20px_50px] sm:h-[800px] justify-between flex sm:flex-wrap w-[100%] h-[300px]">
+        <div class=" flex flex-wrap justify-center w-[30%] sm:pt-[30px] sm:w-[100%] text-center ">
+           
+            <img class="relative top-[5px] h-[100px] left-1" src="/surx.png" alt="">
+            <h1 class="font-[700] pt-[20px] w-[100%]">Fermentum amet</h1>
+            <p class="w-[100%] text-[15px]"> Pellentesque quis tincidunt sit sed. Tortor massa sed habitant dignissim
+                senectus purus. Consectetur
+                integer id in et
+                pulvinar interdum id.</p>
+        </div>
+
+        <div class=" flex flex-wrap justify-center w-[30%] sm:pt-[50px] sm:w-[100%] text-center ">
+           
+            <img class="relative top-[5px] h-[100px] right-1" src="/zard.png" alt="">
+            <h1 class="font-[700] pt-[20px] w-[100%]">Dignissim quam</h1>
+            <p class="w-[100%] text-[15px]"> Quam sed neque vitae viverra purus venenatis ac non. Eget sed nunc, amet,
+                nibh nulla. Morbi sed risus ullamcorper diam,
+                elit ut non.</p>
+        </div>
+
+        <div class=" flex flex-wrap justify-center sm:h-auto w-[30%] sm:pt-[30px] sm:w-[100%] text-center ">
+           
+            <img class="relative bottom-[1px] h-[100px] right-1" src="kabud.png" alt="">
+            <h1 class="font-[700] pt-[20px] w-[100%]">Risus morbi</h1>
+            <p class="w-[100%] text-[15px]"> Euismod sed pellentesque ut elementum. Accumsan gravida turpis ac at.
+                Ullamcorper vitae non est elit odio at augue
+                consequat.</p>
+        </div>
+    </div>
+
+    <div class=" mt-[30px] text-center p-[20px_50px] w-[100%]">
+        <h1 class="font-[700] text-[30px]">All the essential tools</h1>
+        <p class="pt-[10px]">Odio vulputate cras vel lacinia turpis volutpat adipiscing. Sollicitudin at velit, blandit
+            tempus nunc in.</p>
+        <div class="w-[100%] flex sm:block justify-between pt-[50px]">
+            <div class="w-[50%] sm:w-[100%] ">
+                <img src="/img/Col (1).png" alt="">
+            </div>
+            <div class="w-[50%] sm:w-[100%] pt-[200px] sm:pt-[20px] text-left">
+                <div class="w-[100%] pt-[5px] pl-[30px] border-l-[#2563EB] border-l-[4px]">
+                    <h1>Sem augue tempus</h1>
+                    <p class="pt-[10px]">Venenatis blandit habitasse nunc, sapien enim elit in. Arcu, pharetra, et
+                        cursus sit senectus in blandit. Aliquet enim
+                        fermentum non semper nibh ut neque. Pellentesque ut tincidunt vitae arcu bibendum malesuada
+                        lorem sapien volutpat.</p>
+                </div>
+                <div class="w-[100%] pt-[5px] pl-[30px] mt-[20px] border-l-[#b9b9b9] border-l-[4px]">
+                    <h1>Habitant integer interdum a</h1>
+                </div>
+                <div class="w-[100%] pt-[5px] pl-[30px] mt-[20px] border-l-[#c5c5c5] border-l-[4px]">
+                    <h1>Tempus natoque id</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" mt-[30px] text-center p-[20px_50px] w-[100%]">
+        <h1 class="font-[700] text-[30px] sm:text-[25px]">Focus on what matters</h1>
+        <p class="pt-[10px]">Eget at purus mauris euismod metus vitae eget. Diam massa venenatis pellentesque facilisis
+            nunc, varius.</p>
+        <div class="w-[100%] flex sm:block justify-between pt-[50px]">
+            <div class="w-[50%] sm:w-[100%] ">
+                <img src="/img/Group 48.png" alt="">
+            </div>
+            <div class="w-[50%] sm:w-[100%] pt-[200px] sm:pt-[20px] text-left">
+                <div class="w-[100%] pt-[5px] pl-[30px] border-l-[#2563EB] border-l-[4px]">
+                    <h1>Bibendum gravida dolor egestas aliquam</h1>
+                    <p class="pt-[10px]">Egestas tincidunt hendrerit nibh platea sit vivamus aenean rhoncus etiam.
+                        Tristique amet, sed ac ac dolor habitant.
+                        Mauris duis neque molestie venenatis nibh hendrerit pharetra. Tortor suscipit leo sit tellus ac
+                        scelerisque gravida sem.</p>
+                </div>
+                <div class="w-[100%] pt-[5px] pl-[30px] mt-[20px] border-l-[#b9b9b9] border-l-[4px]">
+                    <h1>Egestas lorem eget</h1>
+                </div>
+                <div class="w-[100%] pt-[5px] pl-[30px] mt-[20px] border-l-[#c5c5c5] border-l-[4px]">
+                    <h1>Tellus eget feugiat sit</h1>
+                </div>
+            </div>
+        </div>
+        <button
+            class="bg-[#2563EB] sm:hidden rounded-[10px] hover:bg-transparent hover:border-[2px] hover:border-[#2563EB] hover:text-[#2563EB]  text-[white] p-[10px_0px]  w-[150px]">Get
+            Started</button>
+    </div>
+
+    <div class="bg-[#F1F5F9] w-[100%]  flex sm:block     items-center content-center p-[80px_50px] mt-[30px]">
+        <img class="sm:hidden" src="/img/chevron-back.png" alt="">
+        <div class=" w-[47%] sm:w-[100%]">
+            <img src="/img/Col (2).png" alt="">
+        </div>
+        <div class="w-[47%] sm:w-[100%] sm:text-center ">
+            <h1 class="font-[700] text-[30px]">Success Stories</h1>
+            <p class="w-[70%] sm:w-[100%]"> <span class="text-[gold] text-[30px]">“</span> Id urna, nisl, ut quam. Diam
+                suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit
+                convallis
+                phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo. <span
+                    class="text-[#EF4444] text-[30px] p-[0]">”</span> </p>
+            <h1 class="pt-[10px]">Marie Poirot,
+                <br> <span class="font-[600]">Bigapp</span>
+            </h1>
+            <img class="pt-[30px] sm:m-auto" src="/img/Slider Cues.png" alt="">
+        </div>
+        <img class="sm:hidden" src="/img/chevron-forward.png" alt="">
+    </div>
+
+    <div class="p-[80px_50px] text-center sm:text-left sm:p-[80px_20px]">
+        <h1 class="text-[30px] font-[700] pb-[50px]">Answers to your questions</h1>
+
+        <div class=" flex mt-[30px] justify-between w-[100%]">
+            <div>
+                <h1 class="sm:w-[70%]">Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?
+                </h1>
+            </div>
+            <div>
+                <img src="/img/chevron-down.png" alt="">
+            </div>
+        </div>
+        <div class=" flex  mt-[30px] justify-between w-[100%]">
+            <div class="sm:w-[70%]">
+                <h1>Venenatis nulla sagittis nunc, lobortis nec sollicitudin neque, dolor?</h1>
+            </div>
+            <div>
+                <img src="/img/chevron-down.png" alt="">
+            </div>
+        </div>
+        <div class=" flex  mt-[30px] justify-between w-[100%]">
+            <div class="sm:w-[70%]">
+                <h1>Varius ultricies molestie tellus fermentum, viverra ipsum scelerisque etiam lorem?</h1>
+            </div>
+            <div>
+                <img src="/img/chevron-down.png" alt="">
+            </div>
+        </div>
+        <div class=" flex  mt-[30px] justify-between w-[100%]">
+            <div class="sm:w-[70%]">
+                <h1>Nulla etiam vitae, at sagittis, nibh ultrices mattis feugiat faucibus?</h1>
+            </div>
+            <div>
+                <img src="/img/chevron-down.png" alt="">
+            </div>
+        </div>
+        <div class=" flex  mt-[30px] justify-between w-[100%]">
+            <div class="sm:w-[70%]">
+                <h1>Sagittis consectetur gravida nec turpis eros, id sit et, dictum?</h1>
+            </div>
+            <div>
+                <img src="/img/chevron-down.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="w-[100%] flex bg-[#F1F5F9] sm:block p-[20px_50px] justify-between sm:h-auto  sm:p-[20px] text-[17px]  h-[600px]">
+        <div class="w-[50%] sm:w-[100%]">
+            <h1 class="text-[30px] sm:text-center sm:pt-[0] pt-[100px] font-[900]">Start now and get the <br> best
+                services </h1>
+            <p class="pt-[20px] pr-[10px] text-[20px] sm:text-center">Ac urna elementum purus vulputate tincidunt. Quam
+                maecenas feugiat congue orci, eget tellus pellentesque aliquet. Felis
+                fringilla morbi dui ac consequat risus pharetra odio pulvinar. Id pellentesque in tortor nec nulla cras
+                sapien.
+                Adipiscing nisi tellus quisque aliquet sit risus elementum scelerisque.</p>
+            <button
+                class="bg-[#2563EB] sm:relative sm:left-[110px] mt-[20px]  rounded-[10px] hover:bg-transparent hover:border-[2px] hover:border-[#2563EB] hover:text-[#2563EB]  text-[white] p-[10px_0px]  w-[150px]">Get
+                Started</button>
+        </div>
+
+        <div class="w-[50%] sm:w-[100%] sm:mt-[20px]">
+            <img class="w-auto h-[100%] sm:w-[100%]" src="/img/Col (3).png" alt="">
+        </div>
+    </div>
+
+    <div class=" p-[50px_50px] flex flex-wrap justify-between sm:justify-center sm:p-[50px_10px] w-[100%] border-b-[2px] border-b-[#c2c2c2] ">
+        <div class="w-[12%] mt-[20px] sm:w-[100%] h-[300px] flex flex-wrap sm:justify-center text-center content-between ">
+            <h1 class="font-[500] sm:w-[100%]">Categories</h1>
+            <h1 class="sm:w-[100%]">User Interface</h1>
+            <h1 class="sm:w-[100%]">User Experience</h1>
+            <h1 class="sm:w-[100%]">Digital Media</h1>
+            <h1 class="sm:w-[100%]">Lifestyle</h1>
+            <h1 class="sm:w-[100%]">Programming</h1>
+            <h1 class="sm:w-[100%]">Animation</h1>
+        </div>
+        <div class="w-[12%] mt-[20px] sm:w-[100%] h-[300px] flex flex-wrap sm:justify-center text-center content-between ">
+            <h1 class="font-[500] sm:w-[100%]">Categories</h1>
+            <h1 class="sm:w-[100%]">User Interface</h1>
+            <h1 class="sm:w-[100%]">User Experience</h1>
+            <h1 class="sm:w-[100%]">Digital Media</h1>
+            <h1 class="sm:w-[100%]">Lifestyle</h1>
+            <h1 class="sm:w-[100%]">Programming</h1>
+            <h1 class="sm:w-[100%]">Animation</h1>
+        </div>
+        <div class="w-[12%] mt-[20px] sm:w-[100%] h-[300px] flex flex-wrap sm:justify-center text-center content-between ">
+                <h1 class="font-[500] sm:w-[100%]">Categories</h1>
+            <h1 class="sm:w-[100%]">User Interface</h1>
+            <h1 class="sm:w-[100%]">User Experience</h1>
+            <h1 class="sm:w-[100%]">Digital Media</h1>
+            <h1 class="sm:w-[100%]">Lifestyle</h1>
+            <h1 class="sm:w-[100%]">Programming</h1>
+            <h1 class="sm:w-[100%]">Animation</h1>
+        </div>
+        <div class="w-[12%] mt-[20px] sm:w-[100%] h-[300px] flex flex-wrap sm:justify-center text-center content-between ">
+            <h1 class="font-[500] sm:w-[100%]">Categories</h1>
+            <h1 class="sm:w-[100%]">User Interface</h1>
+            <h1 class="sm:w-[100%]">User Experience</h1>
+            <h1 class="sm:w-[100%]">Digital Media</h1>
+            <h1 class="sm:w-[100%]">Lifestyle</h1>
+            <h1 class="sm:w-[100%]">Programming</h1>
+            <h1 class="sm:w-[100%]">Animation</h1>
+        </div>
+        <div class="w-[12%] mt-[20px] sm:w-[100%] h-[300px] flex flex-wrap sm:justify-center text-center content-between ">
+            <h1 class="font-[500] sm:w-[100%]">Categories</h1>
+            <h1 class="sm:w-[100%]">User Interface</h1>
+            <h1 class="sm:w-[100%]">User Experience</h1>
+            <h1 class="sm:w-[100%]">Digital Media</h1>
+            <h1 class="sm:w-[100%]">Lifestyle</h1>
+            <h1 class="sm:w-[100%]">Programming</h1>
+            <h1 class="sm:w-[100%]">Animation</h1>
+        </div>
+        <div class="w-[12%] mt-[20px] sm:w-[100%] h-[300px] flex flex-wrap sm:justify-center text-center content-between ">
+            <h1 class="font-[500] sm:w-[100%]">Categories</h1>
+            <h1 class="sm:w-[100%]">User Interface</h1>
+            <h1 class="sm:w-[100%]">User Experience</h1>
+            <h1 class="sm:w-[100%]">Digital Media</h1>
+            <h1 class="sm:w-[100%]">Lifestyle</h1>
+            <h1 class="sm:w-[100%]">Programming</h1>
+            <h1 class="sm:w-[100%]">Animation</h1>
+        </div>
+    </div>
+
+    <div class="flex justify-between w-[100%] p-[20px_50px] m-auto text-center sm:block">
+        <h1 class="text-[#2563EB] sm:block font-[700] text-[25px] pr-[20px]">Appy</h1>
+        <h1 class="">@ 2023 All rights reserved.</h1>
+        <img class="w-[20%]  h-[80%] sm:relative right-[80px] sm:w-[100%]" src="/img/Social Icons.png" alt="">
+    </div>
+
+
+
+</body>
+
+</html>
